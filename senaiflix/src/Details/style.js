@@ -231,5 +231,4 @@ export const Container = styled.div`
       height: 260px;
     }
   }
-
 `

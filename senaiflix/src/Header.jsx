@@ -1,7 +1,6 @@
-import { useState } from "react";
-import { Link} from "react-router-dom";
-import styled from "styled-components";
-
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 const HeaderContainer = styled.header`
   background-color: #000;
@@ -51,7 +50,6 @@ const HeaderContainer = styled.header`
 
   .menu-mobile {
     display: ${props => (props.open ? 'flex' : 'none')};
-
     flex-direction: column;
     position: absolute;
 
